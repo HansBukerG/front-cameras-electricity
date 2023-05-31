@@ -1,17 +1,20 @@
-<div class="row mb-3 mt-3">
-  <h4 class="title-style">Buker Ltda.</h4>
-  <p>Proyectos de Ingeniería</p>
+<div class="row nav-bg-color mb-2">
+    <div class="row mb-3 mt-3 p-2">
+        <h4>Buker Ltda.</h4>
+        <p>Proyectos de Ingeniería</p>
+    </div>
+    <div class="row mb-3">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active btn-menu-style" type="button" (click)="goToElectricityPage()">Instalaciones eléctricas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active btn-menu-style" type="button" (click)="goToSecurityPage()">Sistema de alarmas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active btn-menu-style" type="button" (click)="goToProgrammingPage()">Servicios informáticos</a>
+            </li>
+        </ul>
+    </div>
 </div>
-<div class="row mb-3">
-    <ul class="nav justify-content-center nav-bg-color">
-        <li class="nav-item">
-            <a class="nav-link active btn-menu-style" type="button" (click)="goToElectricityPage()">Instalaciones eléctricas</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active btn-menu-style" type="button" (click)="goToSecurityPage()">Sistema de alarmas</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active btn-menu-style" type="button" (click)="goToProgrammingPage()">Servicios informáticos</a>
-        </li>
-    </ul>
-</div>
+
