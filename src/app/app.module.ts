@@ -8,6 +8,7 @@ import { ElectricityPageComponent } from './electricity-page/electricity-page.co
 import { SecurityPageComponent } from './security-page/security-page.component';
 import { ProgrammingPageComponent } from './programming-page/programming-page.component';
 import { FooterPageComponent } from './footer-page/footer-page.component';
+import { WhoAmIComponent } from './who-am-i/who-am-i.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterPageComponent } from './footer-page/footer-page.component';
     ElectricityPageComponent,
     SecurityPageComponent,
     ProgrammingPageComponent,
-    FooterPageComponent
+    FooterPageComponent,
+    WhoAmIComponent
   ],
   imports: [
     BrowserModule,

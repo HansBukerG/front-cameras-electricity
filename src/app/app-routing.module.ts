@@ -3,11 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { ElectricityPageComponent } from './electricity-page/electricity-page.component';
 import { ProgrammingPageComponent } from './programming-page/programming-page.component';
 import { SecurityPageComponent } from './security-page/security-page.component';
+import { WhoAmIComponent } from './who-am-i/who-am-i.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'electricityPage',
+    redirectTo: 'programmingPage',
     pathMatch: 'full'
   },
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'programmingPage',
     component: ProgrammingPageComponent
+  },
+  {
+    path: 'whoAmI',
+    component: WhoAmIComponent
   },
 ];
 

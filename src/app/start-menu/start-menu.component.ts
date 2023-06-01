@@ -23,6 +23,9 @@ export class StartMenuComponent {
     this.router.navigate(['programmingPage']);
   }
 
+  goToWhoAmI(){
+    this.router.navigate(['whoAmI']);
+  }
   urlTestPage() {
     this.router.navigate(['urlTest'])
   }
